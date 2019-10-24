@@ -1,10 +1,9 @@
-var header = '<div class="header">' +
-                    '<h2>Scroll Down</h2>' +
-                    '<p>Scroll down to see the sticky effect.</p>' +
-                '</div>' +
+var header = /* '<div class="header">' +
+                     '<img id="logo" src="images/pi-services-logo.png"/>'+
+                 '</div>' + */
 
                 '<div id="navbar">' +
-                    '<a href="index.html">Home</a>' +
+                    '<a href="index.html"><img class="logo" src="images/pi-services-logo.png"/></a>' +
                     '<a href="javascript:void(0)">News</a>' +
                     '<a href="javascript:void(0)">Contact</a>' +
                 '</div>';
