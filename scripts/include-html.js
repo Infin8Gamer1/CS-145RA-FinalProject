@@ -44,6 +44,12 @@ function includeHeader() {
 
 var footer = '<div id="footer">' +
                     '<h1>This is the footer</h1>' +
+                    '<div class="socialPanel">' +
+                        '<p>Follow Pi Services : </p>' +
+                        '<a href="#" class="fa fa-facebook"></a>' +
+                        '<a href="#" class="fa fa-twitter"></a>' +
+                        '<a href="#" class="fa fa-linkedin"></a>' +
+                    '</div>' +
                 '</div>';
 
 function includeFooter() {
