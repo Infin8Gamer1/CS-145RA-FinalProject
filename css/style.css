@@ -17,6 +17,10 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  p {
+    color: #222;
+  }
+
   h2 {
     margin-top: 0px;
   }
@@ -68,12 +72,81 @@
     width: 100%;
   }
 
-  .hero > h1 {
+  .heroCar {
+    background-image: url("../images/aston-martin.jpg");
+    height: 500px;
+  }
+
+  .hero h1 {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
     padding: 0;
     margin: 0;
     color: white;
+  }
+
+  .hero h2 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+
+  .aboutFounder {
+    position: relative;
+    top: 25%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+  }
+
+  .aboutFounderSubtitle {
+    position: relative;
+    top: 50%;
+    left: -5%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+  }
+
+  .showcase {
+    position: relative;
+    width: 100%;
+  }
+
+  .showcase img {
+
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+
+  }
+
+  .showcase h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 0;
+    margin: 0;
+
+    font-size: 1.25em;
+  }
+
+  .review {
+    padding: 40px;
+
+    text-align: center;
+  }
+
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
   }
   
