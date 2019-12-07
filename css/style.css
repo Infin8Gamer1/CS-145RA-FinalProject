@@ -7,7 +7,7 @@
 
 /* VARS */
 :root {
-  --content-width: 75%;
+  --content-width: 85%;
 }
 
   body {
@@ -42,6 +42,8 @@
   .col {
     width: 100%;
     padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .col > h1{
@@ -77,6 +79,14 @@
     height: 500px;
   }
 
+  .heroFamousCases {
+    background-image: url("../images/FamousCases.jpg");
+  }
+
+  .heroNewBeginings {
+    background-image: url("../images/NewBeginings.jpg");
+  }
+
   .hero h1 {
     display: table-cell;
     text-align: center;
@@ -84,6 +94,10 @@
     padding: 0;
     margin: 0;
     color: white;
+
+    font-family: 'ethnocentric';
+
+    font-size: 3em;
   }
 
   .hero h2 {
@@ -106,7 +120,7 @@
   .aboutFounderSubtitle {
     position: relative;
     top: 50%;
-    left: -5%;
+    left: 10%;
     transform: translate(-50%, -50%);
     font-size: 2em;
   }

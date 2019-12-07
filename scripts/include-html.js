@@ -6,10 +6,11 @@ var header =  '<header>' +
                 '<div id="navbar">' +
                     '<ul id="navbar-inner">' +
                         '<li><a href="index.html"><img class="logo" src="images/pi-services-logo-emblem-only.png"/></a></li>' +
-                        '<li><a href="jacob.html">Jacob</a></li>' +
-                        '<li><a href="jameson.html">Jameson</a></li>' +
-                        '<li><a href="news.html">News</a></li>' +
-                        '<li><a href="contact.html">Contact</a></li>' +
+                        '<li><a href="famous_cases.html">Famous Cases</a></li>' +
+                        '<li><a href="PrivateInvestigation.html">Private Investigation</a></li>' +
+                        '<li><a href="BugSweep.html">Bug Sweeps</a></li>' +
+                        '<li><a href="BackgroundChecks.html">Backgorund Checks</a></li>' +
+                        '<li><a href="LocationServices.html">Location Services</a></li>' +
                     '</ul>' +
                 '</div>';
 
@@ -43,13 +44,13 @@ function includeHeader() {
 }
 
 var footer = '<div id="footer">' +
-                    '<h1>This is the footer</h1>' +
-                    '<div class="socialPanel">' +
-                        '<p>Follow Pi Services : </p>' +
-                        '<a href="#" class="fa fa-facebook"></a>' +
-                        '<a href="#" class="fa fa-twitter"></a>' +
-                        '<a href="#" class="fa fa-linkedin"></a>' +
-                    '</div>' +
+                    '<p>Jacob Holyfield, Jameson Vetter &copy; 2019</p>' +
+                    // '<div class="socialPanel">' +
+                    //     '<p>Follow Pi Services : </p>' +
+                    //     '<a href="#" class="fa fa-facebook"></a>' +
+                    //     '<a href="#" class="fa fa-twitter"></a>' +
+                    //     '<a href="#" class="fa fa-linkedin"></a>' +
+                    // '</div>' +
                 '</div>';
 
 function includeFooter() {
